@@ -63,12 +63,12 @@ depends: [
   "json-data-encoding" {= "0.12.1"}
   "jsonrpc" {= "1.15.0~5.0preview1"}
   "logs" {= "0.7.0"}
-  "mlgmpidl" {= "1.2.14"}
+  "mlgmpidl" {= "1.2.15"}
   "num" {= "1.4"}
-  "ocaml" {= "4.14.0"}
-  "ocaml-variants" {= "4.14.0+options"}
+  "ocaml" {= "5.0.0"}
+  "ocaml-variants" {= "5.0.0+options"}
   "ocaml-compiler-libs" {= "v0.12.4"}
-  "ocaml-config" {= "2"}
+  "ocaml-config" {= "3"}
   "ocaml-option-flambda" {= "1"}
   "ocaml-syntax-shims" {= "1.0.0"}
   "ocamlbuild" {= "0.14.2"}
@@ -132,10 +132,14 @@ pin-depends: [
   ]
   [
     "apron.v0.9.13"
-    "git+https://github.com/antoinemine/apron.git#c852ebcc89e5cf4a5a3318e7c13c73e1756abb11"
+    "git+https://github.com/antoinemine/apron.git#1a8e91062c0d7d1e80333d19d5a432332bbbaec8"
   ]
   [
     "ppx_deriving.5.2.1"
     "git+https://github.com/ocaml-ppx/ppx_deriving.git#0a89b619f94cbbfc3b0fb3255ab4fe5bc77d32d6"
+  ]
+  [
+    "mlgmpidl.1.2.15"
+    "git+https://github.com/nicokn/mlgmpidl.git#76d30b6b7409dffddbfd4c7ef66c3092f80d46d1"
   ]
 ]
