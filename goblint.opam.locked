@@ -120,7 +120,7 @@ build: [
   ["dune" "install" "-p" name "--create-install-files" name]
 ]
 dev-repo: "git+https://github.com/goblint/analyzer.git"
-available: os-distribution != "alpine" & arch != "arm64"
+available: os-distribution != "alpine" 
 conflicts: [
   "result" {< "1.5"}
 ]
@@ -128,7 +128,7 @@ conflicts: [
 pin-depends: [
   [
     "goblint-cil.2.0.1"
-    "git+https://github.com/goblint/cil.git#4ef5a0865ce81c740c93da73e20a4f26daab3f1b"
+    "git+https://github.com/nicokn/cil.git#b6b1af637ad5920524ffd9e8bf53270db4f57905"
   ]
   [
     "apron.v0.9.13"
@@ -140,6 +140,6 @@ pin-depends: [
   ]
   [
     "mlgmpidl.1.2.15"
-    "git+https://github.com/nicokn/mlgmpidl.git#76d30b6b7409dffddbfd4c7ef66c3092f80d46d1"
+    "git+https://github.com/nicokn/mlgmpidl.git#42f639bf53e512327d21a3c91ac4a34718e78a12"
   ]
 ]
