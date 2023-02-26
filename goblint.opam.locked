@@ -1,4 +1,4 @@
-opam-version: "2.0"
+opam-version: "2.1"
 name: "goblint"
 version: "dev"
 synopsis: "Static analysis framework for C"
@@ -140,6 +140,6 @@ pin-depends: [
   ]
   [
     "mlgmpidl.1.2.15"
-    "git+https://github.com/nicokn/mlgmpidl.git#42f639bf53e512327d21a3c91ac4a34718e78a12"
+    "git+https://github.com/nicokn/mlgmpidl.git#f4ea6b45395c9f9b2b7dc96526995555296fd927"
   ]
 ]
