@@ -140,6 +140,6 @@ pin-depends: [
   ]
   [
     "mlgmpidl.1.2.15"
-    "git+https://github.com/nicokn/mlgmpidl.git#f4ea6b45395c9f9b2b7dc96526995555296fd927"
+    "git+https://github.com/nicokn/mlgmpidl.git#1702dda4c2ba26b3dcbf5d0e06564d9947d8ba81"
   ]
 ]
